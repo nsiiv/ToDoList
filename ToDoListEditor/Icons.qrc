@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/addTask.png</file>
+        <file>Icons/delete.png</file>
+        <file>Icons/editing.png</file>
+        <file>Icons/todoIcon.png</file>
+    </qresource>
+</RCC>
