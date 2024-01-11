@@ -83,14 +83,6 @@ bool TaskDialog::titleIsReadOnly() const
     return ui->leTitle->isReadOnly();
 }
 //------------------------------------------------------------------------------
-
-//QString removeExtraSpaces(const QString& str)
-//{
-//    QString result = str.simplified(); // Удаляем лишние пробелы в начале и конце строки и заменяем последовательности пробелов одним пробелом
-//    result.replace(QRegularExpression("\\s+"), " "); // Заменяем все последовательности пробелов одним пробелом
-//    return result;
-//}
-
 void TaskDialog::setTitle(const QString &title)
 {
     try
